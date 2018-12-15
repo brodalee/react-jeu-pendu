@@ -5,6 +5,9 @@
         <data xmlns="http://www.netbeans.org/ns/clientside-project/1">
             <name>react-jeu-pendu</name>
         </data>
+        <formeditor xmlns="http://controlsjs.com/netbeans/tools/formeditor/">
+            <formeditor_sourcefilter>"custom;system;wineight%20skin;"</formeditor_sourcefilter>
+        </formeditor>
         <libraries xmlns="http://www.netbeans.org/ns/cdnjs-libraries/1"/>
     </configuration>
 </project>

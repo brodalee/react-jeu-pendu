@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-import autoBind from 'react-autobind';
+import React from 'react';
 
-class PenduSchema extends Component{
-    
-    constructor(props){
-        super(props);
-        autoBind(this);
-    }
-    
-    render(){
-        return (<div>azeaze</div>);
-    }
+const PenduSchema = ({currentTry}) => {
+    const path = "img/" + currentTry + ".jpg";
+    return (
+            <div className="container">
+                <div className="col-md-4"></div>
+                <div>
+                    <img src={path} alt="pendu" />
+                </div>               
+            </div>
+            );
 };
 
 export default PenduSchema;
